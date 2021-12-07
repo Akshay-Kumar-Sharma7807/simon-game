@@ -1,4 +1,11 @@
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
   background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/nasty_fabric.png)
 }
 
@@ -8,41 +15,46 @@ body {
 }
 
 .button {
-  border-radius: 50% !important;
+  border-radius: 10px !important;
   font-size: 1.5em;
-  background-color: lightgray;
+  border: none;
+  outline: none;
+  padding: 0.4rem;
+  background-color: rgb(233, 233, 233);
 }
 
 #switches {
   position: absolute;
-  font-family: 'Original Surfer', cursive;
+  /* font-family: 'Original Surfer', cursive; */
   margin-left: 26px;
   margin-top: 110px;
 }
 
 .text2 {
   position: absolute;
-  font-family: 'Original Surfer', cursive;
-  margin-left: 83px;
+  /* font-family: 'Original Surfer', cursive; */
+  margin-left: 87px;
   margin-top: 197px;
 }
 
 .text1 {
   position: absolute;
-  font-family: 'Original Surfer', cursive;
-  margin-left: 19px;
+  /* font-family: 'Original Surfer', cursive; */
+  margin-left: 22px;
   margin-top: 142px;
 }
 
 .text1 span:last-child {
-  padding-left: 70px;
+  padding-left: 75px;
 }
 
 #title {
-  font-family: 'Original Surfer', cursive;
+  /* font-family: 'Original Surfer', cursive; */
   position: absolute;
   font-size: 40px;
-  margin-left: 35px;
+  margin-left: 45px;
+  text-shadow: none;
+  color: white;
   margin-top: 40px;
 }
 

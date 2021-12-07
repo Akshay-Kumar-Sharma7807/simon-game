@@ -139,7 +139,7 @@ topLeft.addEventListener('click', (event) => {
     playerOrder.push(1);
     check();
     one();
-    if(!win) {
+    if (!win) {
       setTimeout(() => {
         clearColor();
       }, 300);
@@ -152,7 +152,7 @@ topRight.addEventListener('click', (event) => {
     playerOrder.push(2);
     check();
     two();
-    if(!win) {
+    if (!win) {
       setTimeout(() => {
         clearColor();
       }, 300);
@@ -165,7 +165,7 @@ bottomLeft.addEventListener('click', (event) => {
     playerOrder.push(3);
     check();
     three();
-    if(!win) {
+    if (!win) {
       setTimeout(() => {
         clearColor();
       }, 300);
@@ -178,7 +178,7 @@ bottomRight.addEventListener('click', (event) => {
     playerOrder.push(4);
     check();
     four();
-    if(!win) {
+    if (!win) {
       setTimeout(() => {
         clearColor();
       }, 300);
@@ -190,9 +190,9 @@ function check() {
   if (playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1])
     good = false;
 
-  if (playerOrder.length == 3 && good) {
-    winGame();
-  }
+  // if (playerOrder.length == 3 && good) {
+  //   winGame();
+  // }
 
   if (good == false) {
     flashColor();
